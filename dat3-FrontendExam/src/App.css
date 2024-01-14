@@ -1,0 +1,123 @@
+@media (min-width: 852px) {
+  .sidebar{
+    display: block!important;
+  }
+  
+}
+.gridexample .row{
+  background-color: rgba(86,61,124,.15);
+}
+.sidebar{
+  border-right: 1px solid #00000056;
+  text-align: left;
+  list-style-type: none;
+  padding: 1rem;
+  width: 233px;
+}
+.sidebar ul{
+  list-style-type: none;
+  padding-left: 0;
+}
+#root {
+
+  text-align: center;
+}
+.maincontent{
+  padding: 3rem;
+}
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.flexboxdiv button:focus{
+  outline: none;
+}
+.product-list_product-item {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 10px;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+}
+
+.product-card {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width: 300px;
+height: 400px;
+margin: 20px;
+padding: 20px;
+background-color: #fff;
+border-radius: 10px;
+box-shadow: 0 5px 30px rgba(22, 22, 54, 0.3);
+transition: all 0.3s ease-in-out;
+}
+
+.product-card:hover {
+transform: scale(1.02);
+box-shadow: 0 0 70px rgba(32, 32, 116, 0.4);
+background-color:  rgb(239, 242, 255);
+}
+.product-card_image{
+object-fit: cover;
+width: 200px;
+height: 200px;
+overflow: hidden;
+border-radius: 10px;
+}
+
+.product-card img {
+width: 210px;
+height: 200px;
+margin-bottom: 20px;
+}
+
+.product-card h2 {
+font-size: 1.5rem;
+color: #000000;
+margin-bottom: 10px;
+cursor: default;
+}
+
+.product-card p {
+font-family: 'Josefin Sans', sans-serif;
+font-size: 1rem;
+color: rgb(119, 119, 209);
+font-weight: 500;
+margin-bottom: 10px;
+cursor: default;
+}
